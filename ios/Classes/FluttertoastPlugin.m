@@ -88,7 +88,7 @@ static NSString *const CHANNEL_NAME = @"PonnamKarthik/fluttertoast";
 
 
         CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];
-        style.messageFont = [UIFont systemFontOfSize:cgf];
+        style.messageFont = [UIFont boldSystemFontOfSize:cgf];
         style.backgroundColor = [self colorWithHex:bgcolor.unsignedIntegerValue];
         style.messageColor = [self colorWithHex:textcolor.unsignedIntegerValue];
         style.verticalPadding = 24;
